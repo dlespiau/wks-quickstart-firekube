@@ -110,10 +110,10 @@ items:
         containers:
         - args:
           - --ssh-keygen-dir=/var/fluxd/keygen
-          - --git-url=""
-          - --git-branch=master
+          - --git-url=https://github.com/dlespiau/wks-quickstart-firekube.git
+          - --git-branch=2019-09-12-bump-wksctl
           - --git-poll-interval=30s
-          - --git-path="."
+          - --git-path=.
           - --git-readonly
           - --memcached-hostname=memcached.weavek8sops.svc.cluster.local
           - --memcached-service=memcached
