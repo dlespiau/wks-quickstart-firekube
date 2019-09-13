@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: wks-controller
-  namespace: weavek8sops
+  namespace: system
   labels:
     name: wks-controller
     control-plane: wks-controller
