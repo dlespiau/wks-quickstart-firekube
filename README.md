@@ -20,15 +20,6 @@ push an initial commit to your fork:
    cd wks-quickstart-firekube
    ```
 
-1. (optional) If you are on macOS or want to use docker containers instead of [firecracker][gh-firecracker] virtual machines, change the backend to `docker` in `config.yaml`:
-
-   ```console
-   # Change backend: ignite to backend: docker in config.yaml
-   vim config.yaml
-   git add config.yaml
-   git commit -m "Change backend to docker"
-   ```
-
 1. Start the cluster:
 
    ```console
